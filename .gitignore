@@ -1,0 +1,25 @@
+# python
+__pycache__/
+*.pyc
+backend/.venv/
+backend/cache.db
+
+# node / next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/tsconfig.tsbuildinfo
+
+# secrets
+.env
+.env.local
+.env*.local
+
+# os / editor
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# local docs
+docs/

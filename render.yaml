@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: caprae-ai-readiness-backend
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
