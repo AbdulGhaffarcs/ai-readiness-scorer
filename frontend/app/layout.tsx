@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Caprae AI-Readiness Scorer",
   description:
     "Surface the lower-middle-market B2B SaaS companies most ready for post-acquisition AI value creation.",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
